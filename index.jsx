@@ -4,8 +4,8 @@ import * as XLSX from "xlsx";
 // ─────────────────────────────────────────────────────────────────────────────
 // SUPABASE CONFIG — fill these in when you're ready to go cloud-based
 // ─────────────────────────────────────────────────────────────────────────────
-const SUPABASE_URL = "";        // e.g. "https://xyzxyz.supabase.co"
-const SUPABASE_ANON_KEY = "";   // your project's anon/public key
+const SUPABASE_URL = "https://enfdzpmefhzharrycguz.supabase.co";        // e.g. "https://xyzxyz.supabase.co"
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVuZmR6cG1lZmh6aGFycnljZ3V6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg5MjI2MzIsImV4cCI6MjA5NDQ5ODYzMn0.LzsQtCopd8b_ueHmEu6S05NBHN62Ya2Ek6gcuPAJdPw";   // your project's anon/public key
 // ─────────────────────────────────────────────────────────────────────────────
 // When both values are set, the app will be ready to:
 //   - createClient(SUPABASE_URL, SUPABASE_ANON_KEY)
